@@ -1,0 +1,15 @@
+{
+    "name": "asus/buku-tamu",
+    "description": "tugas buku tamu",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Asus\\BukuTamu\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "phpoffice/phpspreadsheet": "^5.2"
+    }
+}
